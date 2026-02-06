@@ -23,12 +23,15 @@ var typed = new Typed('.element', {
 
 var typed1 = new Typed('.')
 
-document.getElementById("download_btn").addEventListener("click", function () {
-  const link = document.createElement("a");
-  link.href = "Yash_Detani_resume.pdf"; 
-  link.download = "Yash_Detani_resume.pdf"; 
-  link.click();
-});
+window.onload = function () {
+  document.getElementById("download_btn").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "Yash_Detani_resume.pdf";
+    link.download = "Yash_Detani_resume.pdf";
+    link.click();
+  });
+};
+
 
 
 
