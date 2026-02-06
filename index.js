@@ -25,9 +25,10 @@ var typed1 = new Typed('.')
 
 document.getElementById("download_btn").addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "assets/Yash_Detani_resume.pdf"; 
+  link.href = "Yash_Detani_resume.pdf"; 
   link.download = "Yash_Detani_resume.pdf"; 
   link.click();
 
 });
+
 
