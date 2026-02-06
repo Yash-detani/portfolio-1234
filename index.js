@@ -28,7 +28,7 @@ document.getElementById("download_btn").addEventListener("click", function () {
   link.href = "Yash_Detani_resume.pdf"; 
   link.download = "Yash_Detani_resume.pdf"; 
   link.click();
-
 });
+
 
 
