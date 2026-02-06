@@ -1,6 +1,6 @@
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
-// Show/hide sticky navigation and scroll button based on scroll position
+
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {
     nav.classList.add("sticky");
@@ -10,7 +10,7 @@ window.onscroll = function () {
     scrollBtn.style.display = "none";
   }
 };
-// Side Navigation Menu
+
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
@@ -25,7 +25,8 @@ var typed1 = new Typed('.')
 
 document.getElementById("download_btn").addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "Yash's Resume"; // Replace with path to your resume file
-  link.download = "Yash_Resume.pdf"; // Rename the file for user
+  link.href = "Yash's Resume"; 
+  link.download = "Yash_Detani_resume.pdf"; 
   link.click();
+
 });
