@@ -92,13 +92,24 @@ nav.sticky .menu a:hover {
 
 .navbar .media-icons a {
     color: #4070f4;
-    font-size: 18px;
-    margin: 0 6px;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.navbar .media-icons a:hover {
+    color: #0E2431;
+    transform: scale(1.2);
 }
 
 nav.sticky .media-icons a {
     color: #FFF;
 }
+
+nav.sticky .media-icons a:hover {
+    color: #000;
+}
+
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
@@ -599,4 +610,6 @@ footer .text span a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+
