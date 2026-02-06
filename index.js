@@ -21,8 +21,6 @@ var typed = new Typed('.element', {
     typeSpeed: 30
     });
 
-var typed1 = new Typed('.')
-
 window.onload = function () {
   document.getElementById("download_btn").addEventListener("click", function () {
     const link = document.createElement("a");
@@ -31,6 +29,7 @@ window.onload = function () {
     link.click();
   });
 };
+
 
 
 
